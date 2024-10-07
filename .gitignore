@@ -3,8 +3,9 @@ cache/
 out/
 
 # Ignores development broadcast logs
+!/broadcast
 /broadcast/*/31337/
-broadcast/**/dry-run/
+/broadcast/**/dry-run/
 
 # Docs
 docs/
@@ -12,6 +13,8 @@ docs/
 # Dotenv file
 .env
 
-# Ignorar todo en broadcast y lib, excepto los archivos específicos que deseas incluir
 broadcast/
 lib/
+
+.DS_Store
+zkout/
